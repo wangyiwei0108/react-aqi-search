@@ -1,0 +1,88 @@
+.app {
+  &__wrapper {
+    margin: 4rem 12rem;
+
+    @include respond(-xtralarge) {
+      margin: 4rem 10rem;
+    }
+
+    @include respond(-large) {
+      margin: 4rem 9rem;
+    }
+
+    @include respond(-medium) {
+      margin: 3.8rem 8rem;
+    }
+
+    @include respond(-small) {
+      margin: 0;
+    }
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    background-color: $color-light;
+    padding: 5rem 6rem;
+    border-radius: 5em;
+    border: 2px dotted $color-light-1;
+
+    @include respond(-medium) {
+      padding: 4.5rem 5.5rem;
+    }
+
+    @include respond(-small) {
+      padding: 4rem 5rem;
+      border-radius: 0;
+      border: none;
+    }
+
+    @include respond(-smaller) {
+      padding: 3.5rem 4.5rem;
+    }
+
+    @include respond(-smallest) {
+      padding: 2.5rem 3.5rem;
+    }
+  }
+
+  &__title {
+    margin-bottom: 4rem;
+    font-size: 2.4rem;
+    letter-spacing: 8px;
+    display: flex;
+    position: relative;
+
+    & svg {
+      width: 4.1rem;
+      height: 4.1rem;
+      fill: $color-dark;
+      position: absolute;
+      top: 0.6rem;
+      left: 35.2rem;
+
+      @include respond(-large) {
+        left: 35.7rem;
+      }
+
+      @include respond(-medium) {
+        top: 0.7rem;
+        left: 36.4rem;
+        width: 3.9rem;
+        height: 3.9rem;
+      }
+
+      @include respond(-smallest) {
+        top: 0.8rem;
+        left: 36.3rem;
+        width: 3.9rem;
+        height: 3.9rem;
+      }
+    }
+  }
+
+  &__bar {
+    margin-bottom: 4.5rem;
+  }
+}

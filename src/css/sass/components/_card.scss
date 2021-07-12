@@ -1,0 +1,65 @@
+.card {
+  &__container {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid $color-dark;
+    width: 100%;
+    height: 5.5rem;
+    text-align: center;
+    cursor: pointer;
+    transition: all 100ms ease;
+
+    &:hover {
+      opacity: 0.6;
+    }
+  }
+
+  &__district {
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__aqi {
+    width: 7.5rem;
+    border-left: 2px solid $color-dark;
+
+    @include respond(-small) {
+      width: 6.5rem;
+    }
+  }
+}
+
+.cardColor__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.green {
+  background-color: $color-green;
+}
+
+.yellow {
+  background-color: $color-yellow;
+}
+
+.orange {
+  background-color: $color-orange;
+}
+
+.red {
+  background-color: $color-red;
+}
+
+.purple {
+  background-color: $color-purple;
+}
+
+.brown {
+  background-color: $color-brown;
+}

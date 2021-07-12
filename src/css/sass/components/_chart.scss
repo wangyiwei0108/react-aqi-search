@@ -1,0 +1,43 @@
+.chart {
+  &__container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: max-content max-content auto;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  &__location {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    align-self: center;
+    font-size: 2.6rem;
+    letter-spacing: 2px;
+  }
+
+  &__update-time {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    justify-self: flex-end;
+    align-self: center;
+    font-weight: 500;
+
+    & span {
+      @include respond(-smaller) {
+        display: none;
+      }
+    }
+  }
+
+  &__selected-card {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    margin-top: 2.6rem;
+  }
+
+  &__cardList {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    margin-top: 2.6rem;
+  }
+}

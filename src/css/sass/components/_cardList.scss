@@ -1,0 +1,22 @@
+.cardList {
+  &__container {
+    display: grid;
+    grid-template-columns: 18vw 18vw;
+    grid-template-rows: auto auto auto auto;
+    grid-row-gap: 2.2rem;
+    grid-column-gap: 2vw;
+    justify-content: flex-end;
+
+    @include respond(-xtralarge) {
+      grid-template-columns: 17vw 17vw;
+    }
+
+    @include respond(-small) {
+      grid-template-columns: 22vw 22vw;
+    }
+
+    @include respond(-smaller) {
+      grid-template-columns: 32vw;
+    }
+  }
+}
