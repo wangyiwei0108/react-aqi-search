@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/react-aqi-search/static/css/main.1b1cf89e.chunk.css",
-    "main.js": "/react-aqi-search/static/js/main.9baf4e0a.chunk.js",
-    "main.js.map": "/react-aqi-search/static/js/main.9baf4e0a.chunk.js.map",
+    "main.css": "/react-aqi-search/static/css/main.779532cb.chunk.css",
+    "main.js": "/react-aqi-search/static/js/main.92953f1f.chunk.js",
+    "main.js.map": "/react-aqi-search/static/js/main.92953f1f.chunk.js.map",
     "runtime-main.js": "/react-aqi-search/static/js/runtime-main.5422a2a4.js",
     "runtime-main.js.map": "/react-aqi-search/static/js/runtime-main.5422a2a4.js.map",
     "static/js/2.b1f047e1.chunk.js": "/react-aqi-search/static/js/2.b1f047e1.chunk.js",
     "static/js/2.b1f047e1.chunk.js.map": "/react-aqi-search/static/js/2.b1f047e1.chunk.js.map",
     "index.html": "/react-aqi-search/index.html",
-    "static/css/main.1b1cf89e.chunk.css.map": "/react-aqi-search/static/css/main.1b1cf89e.chunk.css.map",
+    "static/css/main.779532cb.chunk.css.map": "/react-aqi-search/static/css/main.779532cb.chunk.css.map",
     "static/js/2.b1f047e1.chunk.js.LICENSE.txt": "/react-aqi-search/static/js/2.b1f047e1.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.5422a2a4.js",
     "static/js/2.b1f047e1.chunk.js",
-    "static/css/main.1b1cf89e.chunk.css",
-    "static/js/main.9baf4e0a.chunk.js"
+    "static/css/main.779532cb.chunk.css",
+    "static/js/main.92953f1f.chunk.js"
   ]
 }
