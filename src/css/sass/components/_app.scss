@@ -54,30 +54,29 @@
     display: flex;
     position: relative;
 
-    & svg {
-      width: 4.1rem;
-      height: 4.1rem;
-      fill: $color-dark;
+    & i {
+      color: $color-dark;
       position: absolute;
-      top: 0.6rem;
-      left: 35.2rem;
+      font-size: 2.9rem;
+      top: 1.2rem;
+      left: 35.4rem;
 
       @include respond(-large) {
-        left: 35.7rem;
+        left: 36rem;
+        font-size: 2.85rem;
       }
 
       @include respond(-medium) {
-        top: 0.7rem;
-        left: 36.4rem;
-        width: 3.9rem;
-        height: 3.9rem;
+        left: 36.9rem;
+        font-size: 3rem;
+      }
+
+      @include respond(-small) {
+        top: 1.3rem;
       }
 
       @include respond(-smallest) {
-        top: 0.8rem;
-        left: 36.3rem;
-        width: 3.9rem;
-        height: 3.9rem;
+        left: 37rem;
       }
     }
   }

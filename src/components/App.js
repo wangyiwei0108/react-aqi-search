@@ -63,7 +63,7 @@ const App = () => {
       <div className="app__container">
         <section className="app__title">
           <h1>臺灣空氣品質查詢</h1>
-          <svg><use xlinkHref="images/sprite.svg#icon-magnifying-glass"></use></svg>
+          <i className="fas fa-search"></i>
         </section>
         <section className="app__bar">
           <Bar counties={counties} countySelected={countySelected} setCountySelected={setCountySelected}/>
