@@ -2,7 +2,7 @@
 
 運用行政院環保署提供的[開放資料](https://data.epa.gov.tw/dataset/aqx_p_432)，開發而成的互動式網頁。使用者可點擊表單選項，查看臺灣各地區之即時空氣品質指標（AQI）。
 
-![GITHUB]( 圖片網址 "圖片名稱")
+![GITHUB](https://github.com/wangyiwei0108/react-aqi-search/blob/master/src/assets/aqi.png)
 
 ## DEMO
 [前往頁面](https://wangyiwei0108.github.io/react-aqi-search/)
