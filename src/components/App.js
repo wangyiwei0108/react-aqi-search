@@ -12,7 +12,7 @@ const App = () => {
   useEffect(() => {
 
     const getData = async() => {
-      //要全部資料
+      //要全部的資料
       const response = await fetch('https://data.epa.gov.tw/api/v1/aqx_p_432?offset=0&limit=100&api_key=d15d5d72-05e5-41c0-ad3b-65eb8555311e');
       const data = await response.json();
 
