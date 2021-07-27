@@ -26,5 +26,5 @@
 - 資料處理（filter、map、forEach 之應用）
 - 設定元件狀態之預設顯示值
 - 以 gh-pages 部署至 Github
-
+---
 ![GITHUB](https://github.com/wangyiwei0108/react-aqi-search/blob/master/src/assets/aqi.png)
