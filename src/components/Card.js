@@ -5,7 +5,6 @@ const Card = ({district, aqi, setSelectedCard, data, color}) => {
 
   const selectedCardHandler = (data) => {
     setSelectedCard(data);
-    console.log(data);
   }
 
   return (
