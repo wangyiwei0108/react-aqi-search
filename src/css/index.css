@@ -239,6 +239,9 @@ body {
 .brown {
   background-color: #d4c6b2; }
 
+.pink {
+  background-color: #dadada; }
+
 .cardList__container {
   display: grid;
   grid-template-columns: 18vw 18vw;
